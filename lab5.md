@@ -74,3 +74,8 @@ public class SortTest {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.12.jar" *.java
 java -cp ".;lib/junit-4.12.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore SortTest
 ````
+
+
+# Part2
+
+In the second half of the 15L, I deepened my understanding of markdown which I can make my github page look a lot better. During the class and lab, I learned jdb, write code in bash, commit, and push changes to git hub directly from command, vim. I think it is really useful to use the bash command because you don't need to type everything out again and again. It is also really useful to use vim when there is a lot of code and you are trying to find a specific place. I really like 15L. This class is really interesting and useful. 
