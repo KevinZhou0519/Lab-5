@@ -1,12 +1,16 @@
 # Part 1
 
 **symptom**
-I got an Assertion error saying that the first element of the sorted array does not seem correct base on the exception array, but I do not know what the error is. Can you help me identify the error, please. Thank you.
+>I got an Assertion error saying that the first element of the sorted array does not seem correct base on the exception array, but I do not know what the error is. >Can you help me identify the error, please. Thank you.
 ![lab5-sym](lab5sym.png)
 
 **response**
-What can you see from the output symptom? The actual output is a lot bigger than the expected output, but it should be the smallest element from what I can see in the output. Please check your Sort class methods and see if there is anything wrong, go through your for loop again. 
+>What can you see from the output symptom? The actual output is a lot bigger than the expected output, but it should be the smallest element from what I can see in >the output. Please check your Sort class methods and see if there is anything wrong, go through your for loop again. 
 
+**Fixed**
+>I check the Sort class methods and find out that in the inner for loop, the if statement is wrong. I used `<` instead of `>`, therefore I sort the array from >biggest to smallest, while I want it to sort from smallest to biggest. After I changed it to `>`, it is sorting from small to big. Thank you so much
+
+![lab5fix](lab5fix.md)
 
 **Code Before**
 *Sort.java*
