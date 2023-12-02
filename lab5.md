@@ -1,9 +1,11 @@
 # Part 1
 
 **symptom**
+I got an Assertion error saying that the first element of the sorted array does not seem correct base on the exception array, but I do not know what the error is. Can you help me identify the error, please. Thank you.
+![lab5-sym](lab5sym.png)
 
-
-
+**response**
+What can you see from the output symptom? The actual output is a lot bigger than the expected output, but it should be the smallest element from what I can see in the output. Please check your Sort class methods and see if there is anything wrong, go through your for loop again. 
 
 
 **Code Before**
@@ -65,5 +67,5 @@ public class SortTest {
 *test.sh*
 ````
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.12.jar" *.java
-java -cp ".;lib/junit-4.12.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore SortTest.java
+java -cp ".;lib/junit-4.12.jar;lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore SortTest
 ````
