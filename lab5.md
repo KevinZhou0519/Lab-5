@@ -10,7 +10,7 @@
 **Fixed**
 >I check the Sort class methods and find out that in the inner for loop, the if statement is wrong. I used `<` instead of `>`, therefore I sort the array from >biggest to smallest, while I want it to sort from smallest to biggest. After I changed it to `>`, it is sorting from small to big. Thank you so much
 
-![lab5fix](lab5fix.md)
+![lab5fix](lab5fix.png)
 
 **Code Before**
 *Sort.java*
